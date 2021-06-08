@@ -213,6 +213,59 @@ body {
   margin-top: .5rem;
 }
 
+#works{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+#works .first-text h1{
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#works .work{
+    border-radius: 20px;
+    margin-bottom: 4em;
+    text-align: center;
+    background: rgb(11, 11, 153, 0.1);
+    width: 100%;
+    max-width: 25rem;
+}
+
+#works .image-portfolio img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    max-width: 25rem;
+}
+
+#works .work .text{
+    padding: 20px;
+}
+
+#works .work .text h1{
+    color: var(--text);
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+#works .work .text p{
+    color: rgb(242, 242, 242, 0.8);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media(max-width: 768px){
+    #works{
+        margin-left: 8rem;
+    }
+    #works .first-text{
+        display: none;
+    }
+}
+
 footer{
    padding: 2rem 0rem;
    box-shadow: 0px 3px 40px rgba(83, 124, 183, 0.1);
@@ -239,3 +292,36 @@ footer .developed span a {
 footer .developed span i{
     color: #824bff;
 }
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    }
+    ::-webkit-scrollbar:hover {
+    width: 6px;
+    height: 3px;
+    }
+    ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: rgb(11, 11, 153);
+    border: 0px none #ffffff;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+    }
+    ::-webkit-scrollbar-thumb:active {
+    background: rgb(11, 11, 153);
+    }
+    ::-webkit-scrollbar-track {
+    background: #4b5a68;
+    border: 1px none #ffffff;
+    }
+    ::-webkit-scrollbar-track:hover {
+    background: #4b5a68;
+    }
+    ::-webkit-scrollbar-track:active {
+    background: #4b5a68;
+    }
