@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --background: rgb(5, 5, 65);
+    --text: rgb(242, 242, 242);
+}
+
+body{
+    background: var(--background)
+}
+
+@media (max-width: 1080px) {
+    html{
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html{
+        font-size: 87.5%;
+    }
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--text) !important;
+    transition: 0.3s all;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+    margin-bottom: 10px;
+    transition: filter .3s ;
+}
+
+.nav-link-img{
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+    margin-top: 2.3rem;
+    margin-bottom: 10px;
+    transition: filter .3s ;
+}
+
+.nav-link:hover {
+    filter: brightness(0.7);
+}
+
+.nav-h1{
+    color: var(--text);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
+
+.nav-h1 img{
+    width: 5rem;
+}
+
+#home-page{
+    margin-top: 12rem;
+}
+
+#home-page h1{
+    color: var(--text);
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+#home-page p{
+    color: var(--text);
+    filter: brightness(0.8);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#home-page .home-btn{
+    background: rgb(242, 242, 242, 0.9);
+    padding: 0 2.5rem;
+    height: 2.5rem;
+    color: black;
+    border: 0;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: .5rem;
+    transition: filter 0.5s;
+}
+
+#home-page .home-btn:hover{
+    filter: brightness(0.7);
+}
+
+#home-page .home-img img{
+    width: 45rem;
+    margin-top: -5rem;
+}
+
+@media(max-width: 768px){
+    #home-page{
+        margin-left: 2rem;
+    }
+    #home-page .home-img img{
+        margin-top: 2rem;
+        width: 35rem;
+    }
+}
+
+#about-me{
+    margin-top: 20rem;
+}
+
+#about-me .about-img img{
+    width: 30rem;
+}
+
+#about-me h1{
+    font-size: 2rem;
+    color: var(--text);
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+#about-me p{
+    font-size: 1.2rem;
+    color: rgb(242, 242, 242, 0.8);
+    font-weight: 300;
+    width: 30rem;
+}
