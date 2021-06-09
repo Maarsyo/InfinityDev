@@ -89,7 +89,7 @@ body {
 
 #home-page .home-btn {
   background: rgb(242, 242, 242, 0.9);
-  padding: 0 2.5rem;
+  padding: .5rem 2.5rem;
   height: 2.5rem;
   color: black;
   border: 0;
@@ -98,6 +98,7 @@ body {
   font-weight: 600;
   margin-top: 0.5rem;
   transition: filter 0.5s;
+  text-decoration: none;
 }
 
 #home-page .home-btn:hover {
